@@ -16,3 +16,10 @@ Wordle Game in Python
 7. If the letter does not exist, it will become `lower` case and remain black ink
 
 ## GOOD LUCK AND ENJOY!
+
+#### Example of a single game:
+
+<img width="379" alt="Screen Shot 2022-02-12 at 7 16 47 PM" src="https://user-images.githubusercontent.com/40249921/153733687-f996b3db-c378-4ae0-86c8-b40c81a9d4cb.png">
+
+<img width="785" alt="Screen Shot 2022-02-12 at 7 17 16 PM" src="https://user-images.githubusercontent.com/40249921/153733689-8812a2dc-06a8-4190-8926-be670a4e44be.png">
+
