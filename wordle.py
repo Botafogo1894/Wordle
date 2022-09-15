@@ -67,9 +67,7 @@ def play_wordle():
     
     #Turn true word into array of individual letters and indexes
     true_arr = np.array(list(true_word.upper()))
-    # print(true_arr)
     true_idx = [[item, idx, None] for idx, item in enumerate(true_arr)]
-    # print(true_idx)
     
     attempt = 0
     guess_store = []
@@ -78,9 +76,7 @@ def play_wordle():
         #guess word
         guess_word = ask_user_input()
         guess_arr = np.array(list(guess_word))
-        # print(guess_arr)
         guess_idx = [[item, idx, None] for idx, item in enumerate(guess_arr)]
-        # print(guess_idx)
 
         matched = []
         existing = []
@@ -92,7 +88,6 @@ def play_wordle():
 
         rem_guess = [item for item in guess_idx if item[2] != 'YES']
         rem_true = [item for item in true_idx if item[2] != 'YES']
-        # print(rem_guess, rem_true)
 
         for guess in rem_guess:
             for true in rem_true:
